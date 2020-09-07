@@ -1,8 +1,8 @@
 %Reading the First Audio Input (Original Audio)
-[data1,fs] = audioread('3.ogg');
+[data1,fs] = audioread('Original_Audio.ogg');
 
 %Reading the Second Audio Input (Mis-matching Audio)
-[data2,fs] = audioread('4.ogg');
+[data2,fs] = audioread('Mismatching_Audio.ogg');
 
 %These audios are not of single channels so we will take only one column
 %for calculating the cross correlation
